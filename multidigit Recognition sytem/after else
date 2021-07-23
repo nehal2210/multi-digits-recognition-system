@@ -1,0 +1,64 @@
+            
+            # img[:5,:]=0 
+            # img[-10:,:]=0
+            # img[:,-10:]=0 
+            
+            # img =  img[t:img.shape[0]-t, :img.shape[1]-t]
+                       
+            # img = cv2.medianBlur(img,1)
+            # img = cv2.dilate(img,kernel,iterations =1)
+            # img = cv2.medianBlur(img,5)
+            # img = cv2.erode(img,kernel_e,iterations = 1)
+            # img = cv2.medianBlur(img,5)
+            # img = cv2.dilate(img,kernel,iterations = 1)
+
+            # cv2.imshow(str(i),img)
+            # img = bounding_digit(img)
+            # elif i <  7 and i >= 0:
+            # #     # img = img[:img.shape[0]-(4*t)+2, :img.shape[1]-5*t-9]   
+            # #     # cv2.imshow('check',img)
+            #     img = img[t:img.shape[0]-t, t:img.shape[1]-t]
+            # #     # cv2.imshow('check',img)
+
+            # elif i <  14 and i >= 7:
+            # #     # img = img[:img.shape[0]-(4*t)+2, :img.shape[1]-5*t-9]   
+            # #     # cv2.imshow('check',img)
+            #     img = img[t:img.shape[0]-t, t:img.shape[1]-t]
+            # #     # cv2.imshow('check',img)
+            
+
+            # elif i <  21 and i >= 14:
+            # #     # img = img[:img.shape[0]-(3*t), t:img.shape[1]-5*t]
+            # #     # cv2.imshow('check',img)
+            # #     t=
+            
+            #     img = img[:img.shape[0]-2*t, t:img.shape[1]-2*t]
+
+            
+            # elif i <  28 and i >= 21:
+            # #     # img = img[t:img.shape[0]-3*t, t:img.shape[1]-4*t-1]
+                
+            # #     t=4
+            #     img = img[:img.shape[0]-2*t, t:img.shape[1]-t]
+            
+            # elif i <  35 and i >= 28:
+            # #     # img = img[t:img.shape[0]-3*t, t:img.shape[1]-4*t-1]       
+            # #     t=6
+            #     img = img[:img.shape[0]-2*t+1, :img.shape[1]-2*t]
+            # elif i <  42 and i >= 35:
+            # #     # img = img[t:img.shape[0]-3*t, t:img.shape[1]-4*t-1]       
+            # #     t=6
+            #     img = img[:img.shape[0]-3*t, :img.shape[1]-3*t]
+            
+            # else:
+            #     img = img[:img.shape[0]-2*t, :img.shape[1]-3*t]
+
+        
+
+        # img = cv2.resize(img, (28, 28))
+        # img = cv2.resize(img, (, 32))
+
+        # img = cv2.cvtColor(img,cv2.COLOR_GRAY2RGB)
+        # img = img / 255.0
+        # img = img.reshape(1, 28, 28, 1)
+        # img = img.reshape(1, 32, 32, 3)
